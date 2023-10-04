@@ -17,7 +17,7 @@ public class Ejercicio2 {
 
         Double temperaturaK = temperaturaC + 273.15;
 
-        //Double resultado = ((tipo == "F") ? temperaturaF : ((tipo == "K") ? temperaturaK : "Error"));
+        Double resultado = ((tipo == "F") ? temperaturaF : ((tipo == "K") ? temperaturaK : "Error"));
 
         // Cómo no se definir la variable para que realice la operación anterior, dejo indicado como convertir las temperaturas de manera individual
 
