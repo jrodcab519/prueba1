@@ -11,12 +11,17 @@ public class Ejercicio2 {
 
         System.out.println("Introduzca F ó K según quiera convertir la temperatura en grados Fahrenheit ó Kelvin: ");
 
+        String tipo = entrada.next();
+
         Double temperaturaF = (9/5) * temperaturaC + 32;
 
         Double temperaturaK = temperaturaC + 273.15;
 
-        System.out.println(temperaturaF);
-        System.out.println(temperaturaK);
+        Double resultado;
+        resultado = ((tipo == "F") ? temperaturaF : ((tipo == "K") ? temperaturaK : "Error"));
+
+        System.out.println("La temperatura en grados Fahrenheit es: " + temperaturaF);
+        System.out.println("La temperatura en grados Kelvin es: " + temperaturaK);
 
 
     }
