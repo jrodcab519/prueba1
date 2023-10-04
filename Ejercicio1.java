@@ -7,14 +7,14 @@ public class Ejercicio1 {
 
         System.out.println("Introduzca 3 números reales: ");
 
-        int a = entrada.nextInt();
-        int b = entrada.nextInt();
-        int c = entrada.nextInt();
+        double a = entrada.nextDouble();
+        double b = entrada.nextDouble();
+        double c = entrada.nextDouble();
 
-        int apartadoA = a*b + c*((3-a)/(2*b));
-        int apartadoB = ((2+a*b)/4)^(c+2);
-        // como no se como poner la raíz cuadrada la obvio //
-        int apartadoC = (-b+(b-4*a*c))/2*a;
+
+        double apartadoA = a*b + c*((3-a)/(2*b));
+        double apartadoB = ((2+a*b)/4)+(Math.pow(c,1) + 2);
+        double apartadoC = -b+(Math.sqrt(b+Math.pow(b,2)-4*a*c))/2*a;
 
 
 
