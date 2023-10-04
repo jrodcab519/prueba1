@@ -17,11 +17,14 @@ public class Ejercicio2 {
 
         Double temperaturaK = temperaturaC + 273.15;
 
-        Double resultado;
-        resultado = ((tipo == "F") ? temperaturaF : ((tipo == "K") ? temperaturaK : "Error"));
+        Double resultado = ((tipo == "F") ? temperaturaF : ((tipo == "K") ? temperaturaK : "Error"));
+
+        // Cómo no se definir la variable para que realice la operación anterior, dejo indicado como convertir las temperaturas de manera individual //
+
 
         System.out.println("La temperatura en grados Fahrenheit es: " + temperaturaF);
         System.out.println("La temperatura en grados Kelvin es: " + temperaturaK);
+
 
 
     }
